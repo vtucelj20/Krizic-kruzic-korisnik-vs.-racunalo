@@ -1,0 +1,141 @@
+MDFloatLayout:
+
+	Image:
+		source: "back.jpg"
+		size: root.size
+		allow_stretch: True
+		keep_ratio: False
+
+	MDGridLayout:
+		size_hint: .5, .5
+		pos_hint: {'center_x':  .5, 'center_y': .7}
+		cols: 3
+		rows: 3
+
+		Button:
+			id: btn1
+			text: ""
+			font_size: "45sp"
+			bold: True
+			background_color: (1.72, 1.74, 1.73, 1)
+			on_release: app.pritisak(btn1)
+
+		Button:
+			id: btn2
+			text: ""
+			font_size: "45sp"
+			bold: True
+			background_color: (1.72, 1.74, 1.73, 1)
+			on_release: app.pritisak(btn2)
+
+		Button:
+			id: btn3
+			text: ""
+			font_size: "45sp"
+			bold: True
+			background_color: (1.72, 1.74, 1.73, 1)
+			on_release: app.pritisak(btn3)
+
+		Button:
+			id: btn4
+			text: ""
+			font_size: "45sp"
+			bold: True
+			background_color: (1.72, 1.74, 1.73, 1)
+			on_release: app.pritisak(btn4)
+
+		Button:
+			id: btn5
+			text: ""
+			font_size: "45sp"
+			bold: True
+			background_color: (1.72, 1.74, 1.73, 1)
+			on_release: app.pritisak(btn5)
+
+		Button:
+			id: btn6
+			text: ""
+			font_size: "45sp"
+			bold: True
+			background_color: (1.72, 1.74, 1.73, 1)
+			on_release: app.pritisak(btn6)
+
+		Button:
+			id: btn7
+			text: ""
+			font_size: "45sp"
+			bold: True
+			background_color: (1.72, 1.74, 1.73, 1)
+			on_release: app.pritisak(btn7)
+
+		Button:
+			id: btn8
+			text: ""
+			font_size: "45sp"
+			bold: True
+			background_color: (1.72, 1.74, 1.73, 1)
+			on_release: app.pritisak(btn8)
+
+		Button:
+			id: btn9
+			text: ""
+			font_size: "45sp"
+			bold: True
+			background_color: (1.72, 1.74, 1.73, 1)
+			on_release: app.pritisak(btn9)
+
+	MDLabel:
+		id: rezultat
+		font_size: "40sp"
+		color: "black"
+		text: "X je prvi na redu!"
+		halign: "center"
+		pos_hint: {"center_y": .2}
+
+	MDRaisedButton:
+		id: restart
+		text: "Resetiraj igru"
+		size_hint: .2, .1
+		pos_hint: {'center_x': .5, 'center_y': .10}
+		on_release: app.restart()
+
+
+
+	MDBoxLayout:
+		orientation: 'vertical'
+		size_hint: .3, .3
+		padding: 10
+		MDLabel:
+			id: rezultat_natpis
+			font_size: "32sp"
+			color: "black"
+			text: "Rezultat"
+
+
+		MDBoxLayout:
+			orientation: 'horizontal'
+			MDLabel:
+				id: rezultat_za_X_natpis
+				font_size: "32sp"
+				color: "black"
+				text: "Za X:"
+
+			MDLabel:
+				id: rezultat_za_X
+				font_size: "32sp"
+				color: "black"
+				text: "0"
+
+		MDBoxLayout:
+			orientation: 'horizontal'
+			MDLabel:
+				id: rezultat_za_O_natpis
+				font_size: "32sp"
+				color: "black"
+				text: "Za O:"
+
+			MDLabel:
+				id: rezultat_za_O
+				font_size: "32sp"
+				color: "black"
+				text: "0"

@@ -1,0 +1,18 @@
+Instalacija kivy okvira i pyswip modula (pretpostavlja se da je Python već instaliran):
+1. otvoriti naredbeni redak
+2. ažurirati pip i ostala svojstva
+	python -m pip install --upgrade pip setuptools virtualenv
+3. kreirati novo virtualno okruženje
+	python -m virtualenv [naziv okruženja] --> u mojem slučaju: python -m virtualenv kivy_venv
+4. aktivirati virtualno okruženje
+	[naziv okruženja]\Scripts\activate --> u mojem slučaju: kivy_venv\Scripts\activate
+5. instalirati kivy okvir
+	python -m pip install "kivy[full]" kivy_examples
+6. instalirati pyswip (podrazumijeva se da je SWI-Prolog instaliran i da je swipl dodan na PATH kod instalacije):
+	pip install pyswip
+	
+Pokretanje igre:
+1. u naredbenom retku biti u aktiviranom virtualnom okruženju(potrebno ga aktivirati kod svakog novog otvaranja naredbenog retka)
+2. pozicionirati se u direktorij gdje se nalaze Prolog, Python i kivy datoteke
+3. izvršiti naredbu
+	python krizic-kruzic.py
