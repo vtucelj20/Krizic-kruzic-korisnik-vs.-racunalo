@@ -1,6 +1,6 @@
 # Krizic-kruzic-korisnik-vs.-racunalo
 
-**Popularna igra križić kružić implementirana na način da se igra protiv računala**.<br/>
+Popularna igra križić kružić implementirana na način da se igra protiv računala.<br/>
 Implementacija umjetne inteligencije, tj. agenta koji sam odigrava svoj potez napravljena je u programskom jeziku Prolog.<br/>
 Implementacija grafičkog sučelja odrađena je u Pythonu korištenjem kivy okvira i PySwip modula.<br/><br/>
 Potrebno zadovoljiti za pokretanje igre:<br/>
