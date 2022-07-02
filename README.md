@@ -1,0 +1,1 @@
+# Krizic-kruzic-korisnik-vs.-racunalo
