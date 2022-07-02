@@ -15,5 +15,5 @@ Pokretanje igre:<br/>
   <li>otvoriti naredbeni redak
   <li>aktivirati virtualno okruženje [naziv kreiranog virtualnog okruženja]\Scripts\activate --> u mojem slučaju: kivy_venv\Scripts\activate
   <li>pozicionirati se u direktorij gdje se nalaze Python, kivy i Prolog datoteke
-  <li>izvršiti naredbu: **python krizic-kruzic.py**
+  <li>izvršiti naredbu: python krizic-kruzic.py
 </ul>
